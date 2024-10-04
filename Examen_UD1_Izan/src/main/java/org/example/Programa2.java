@@ -3,13 +3,13 @@ package org.example;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-
 public class Programa2 {
     public static void main(String[] args) {
+        boolean error = true;
         Scanner entradaEscaner = new Scanner(System.in); // Crear el objeto Scanner una vez
 
         try {
-            System.out.print("Introduce un número: ");
+            System.out.printf("Introduce un número: ");
         }  catch (InputMismatchException e) {
             System.out.println("Debes introducir un número válido, prueba de nuevo. Introduce un número:");
         }
