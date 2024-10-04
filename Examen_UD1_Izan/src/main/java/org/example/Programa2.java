@@ -13,7 +13,7 @@ public class Programa2 {
         }  catch (InputMismatchException e) {
             System.out.println("Debes introducir un número válido, prueba de nuevo. Introduce un número:");
         }
-        int numero = entradaEscaner.nextInt(); // Leer número 
+        int numero = entradaEscaner.nextInt(); // Leer número
         if (numero > 0)
             System.out.println("El valor absoluto del número es: " + numero); // Muestra el número tal cual
         else {
